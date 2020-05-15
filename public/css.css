@@ -1,0 +1,127 @@
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f100;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+ 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+  
+body{
+  text-align: center;
+  min-width:100vh ;
+}
+
+.container{
+  min-height: 30vh;
+  min-width:100vh ;
+}
+
+
+.animate{
+  animation: slide-down 0.4s ease-in-out ;
+}
+
+
+@keyframes slide-down{
+  0%{
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-up{
+  0%{
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100%{
+    opacity: 0;
+    transform: translateY(20);
+  }
+}
+
+
+
+
+
+.example-enter.example-enter-active {
+ 
+  animation: slide-down 500ms ease-in-out;
+   /* color: red; */
+}
+
+.example-leave {
+  opacity: 1;
+}
+
+.example-leave.example-leave-active {
+  opacity: 0;
+  animation: slide-up 300ms ease-in-out ;
+}
+
+/* .example-appear {
+  opacity: 0;
+} */
+
+.example-appear.example-appear-active {
+  opacity: 1;
+  animation: slide-down 500ms ease-in-out;
+  /* color:blue; */
+}
+
+td{
+   transition: background-color 250ms ease-in-out;
+}
+  .table-container{
+    max-height: 60vh;
+     overflow-y: auto;
+  }
+
+ table {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    width: inherit;
+   
+    
+   
+} 
+ table thead {
+
+    flex: 0 0 auto;
+    width: calc(100% - 0.9em);
+} 
+ table tbody {
+   
+    flex: 1 1 auto;
+    display: block;
+    overflow-y: hidden; 
+    /* transition: height 2s ease-in-out; */
+   }
+
+table tbody tr {
+    width: 100%;
+}
+table thead, table tbody tr {
+  width: 100%;
+    display: table;
+    table-layout: fixed;
+} 

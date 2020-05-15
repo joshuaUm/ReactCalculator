@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script
+src="http://code.jquery.com/jquery-3.4.1.min.js"
+integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+crossorigin="anonymous"></script>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>TWR Calc</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script src='./main.js' type="text/babel"></script>
+</head>
+<body>
+            <form>
+                <fieldset>
+
+
+                    <legend>Early Purchase</legend>
+                      <div style="padding-bottom: 10px;padding-top: 10px;padding-left: 10px">
+                         <label for="type">type: </label>
+                    <select id="type" onchange="change()">
+                        <option value="def">Select Type</option>
+                        <option value="0">Primary</option>
+                        <option  value="1">Secondary</option>
+                        <option  value="2">Melee</option>
+                    </select>
+
+                    <label for="rank">Level: </label>
+                    <input id="rank" type="number"value="1" min="1" max="999">
+
+                    </div>
+
+                    <label for="weapon">Weapon: </label>
+				<select id="weapon">
+					<option selected ="selected ">Select a Type</option>
+                </select>
+                <br><br>
+                <input id="submit" type="button" value="Submit">
+                </fieldset>
+
+            </form>
+
+        <table id="table"  style="border-style : groove">
+            <tr>
+                <th>Rank</th>
+                <th>Price</th>
+            </tr>
+
+        </table>
+</body>
+</html>

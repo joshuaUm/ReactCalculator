@@ -1,0 +1,179 @@
+{
+    "list": [
+        {
+    "name": "Ruger 10/22",
+    "rankReq": 5,
+    "price": 5600,
+    "type": 0,
+    "priceIncr": 6720
+        },
+        {
+    "name": "Ingram Mac-10",
+    "rankReq": 8,
+    "price": 6200,
+    "type": 0,
+    "priceIncr": 4650
+        },
+        {
+    "name": "Sten Mk V",
+    "rankReq": 10,
+    "price": 7400,
+    "type": 0,
+    "priceIncr": 4440
+        },
+        {
+    "name": "Mossberg 500",
+    "rankReq": 12,
+    "price": 8500,
+    "type": 0,
+    "priceIncr": 4250
+        },
+        {
+    "name": "Aero Survival Rifle",
+    "rankReq": 14,
+    "price": 8200,
+    "type": 0,
+    "priceIncr": 3515
+        },
+        {
+    "name": "Winchester Model 70",
+    "rankReq": 15,
+    "price": 7800,
+    "type": 0,
+    "priceIncr": 3120
+        },
+        {
+    "name": "KAC PDW",
+    "rankReq": 16,
+    "price": 10800,
+    "type": 0,
+    "priceIncr": 4050
+        },
+        {
+    "name": "PP-91 Kedr",
+    "rankReq": 18,
+    "price": 12400,
+    "type": 0,
+    "priceIncr": 4134
+        },
+        {
+    "name": "SAP-6",
+    "rankReq": 20,
+    "price": 14300,
+    "type": 0,
+    "priceIncr": 4290
+        },
+        {
+    "name": "Kriss Vector",
+    "rankReq": 21,
+    "price": 15900,
+    "type": 0,
+    "priceIncr": 4543
+        },
+        {
+    "name": "M1 Garand",
+    "rankReq": 22,
+    "price": 16200,
+    "type": 0,
+    "priceIncr": 4418
+        },
+        {
+    "name": "MP5A2",
+    "rankReq": 24,
+    "price": 17700,
+    "type": 0,
+    "priceIncr": 4425
+        },
+        {
+    "name": "AR-57",
+    "rankReq": 26,
+    "price": 26500,
+    "type": 0,
+    "priceIncr": 6116
+        },
+        {
+    "name": "P90",
+    "rankReq": 30,
+    "price": 34000,
+    "type": 0,
+    "priceIncr": 6800
+        },
+        {
+    "name": "M4A1",
+    "rankReq": 32,
+    "price": 32500,
+    "type": 0,
+    "priceIncr": 6093
+        },
+        {
+    "name": "SKO Shorty",
+    "rankReq": 33,
+    "price": 35500,
+    "type": 0,
+    "priceIncr": 6454
+        },
+        {
+    "name": "M14",
+    "rankReq": 35,
+    "price": 44400,
+    "type": 0,
+    "priceIncr": 7400
+        },
+        {
+    "name": "AK-47",
+    "rankReq": 38,
+    "price": 62800,
+    "type": 0,
+    "priceIncr": 9916
+        },
+        {
+    "name": "Mosin Nagant",
+    "rankReq": 40,
+    "price": 74600,
+    "type": 0,
+    "priceIncr": 11190
+        },
+        {
+    "name": "CMMG MK47 Mutant",
+    "rankReq": 48,
+    "price": 102500,
+    "type": 0,
+    "priceIncr": 12813
+        },
+        {
+    "name": "RPK",
+    "rankReq": 52,
+    "price": 110250,
+    "type": 0,
+    "priceIncr": 12721
+        },
+        {
+    "name": "LWRC IC-PSD",
+    "rankReq": 56,
+    "price": 120500,
+    "type": 0,
+    "priceIncr": 12910
+        },
+        {
+    "name": "Flamethrower",
+    "rankReq": 65,
+    "price": 455000,
+    "type": 0,
+    "priceIncr": 42000
+        },
+        {
+    "name": "M60",
+    "rankReq": 75,
+    "price": 820600,
+    "type": 0,
+    "priceIncr": 65648
+        },
+        {
+    "name": "Winchester Model 1892",
+    "rankReq": 110,
+    "price": 988400,
+    "type": 0,
+    "priceIncr": 54458
+        }
+    ]
+}
